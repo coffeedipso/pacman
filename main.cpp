@@ -195,16 +195,16 @@ int main() {
 	RenderWindow window(VideoMode(W * ts, H * ts), "Maze!");
 
 	Texture t;
-	t.loadFromFile("C:/Users/Master/Desktop/Paint/title.png");
+	t.loadFromFile("./images/title.png");
 	Sprite plat(t);
 
 	Texture yw;
-	yw.loadFromFile("C:/Users/Master/Desktop/Paint/youwin.png");
+	yw.loadFromFile("./images/youwin.png");
 	Sprite youwin(yw);
 	youwin.setPosition(100, 210);
 
 	Texture yl;
-	yl.loadFromFile("C:/Users/Master/Desktop/Paint/youlose.png");
+	yl.loadFromFile("./images/youlose.png");
 	Sprite youlose(yl);
 	youlose.setPosition(100, 210);
 
